@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "SAMAJVED",
+    "slug": "smart-education",
+    "scheme": "smarteducation",
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.anonymous.smarteducation"
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "e6d64b60-fbf1-45ba-a538-6f7a2c0f383c"
+      }
+    },
+    "owner": "jagrat"
+  }
+}
